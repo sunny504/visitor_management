@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const bodyParser = require("body-parser");
-const userInfo = require('./api/user_info/route.config');
+const userInfo = require('./route.config');
 console.log("sadf");
 app.listen(3000, () => console.log("Listening on port 3000..."));
 
